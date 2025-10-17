@@ -1,0 +1,81 @@
+
+body{
+ /*   background-color:white;*/
+    background-image:linear-gradient(rgb(250, 159, 174),rgb(156, 222, 244));
+    text-align:center;
+   font-family: "Lobster", sans-serif;
+   display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: space-between;
+}
+.bff-img{
+    border-radius:100%;
+    width:200px;
+    border: 5px solid lightblue;
+
+}
+h1,h3{
+text-shadow:0px 5px rgb(53, 53, 53);
+}
+#bday-age {
+  background-color:lightskyblue;
+  padding:10px 5px;
+  border-radius:5px;
+
+}
+#bday-date {
+  background-color:lightskyblue;
+padding:3px 2px;
+border-radius:2px;
+margin:0px;
+}
+.text{
+  margin:0px;
+  text-shadow:none;
+}
+.gift-img{
+  margin:50px;
+  border:5px solid white;
+  border-radius:5px;
+  width:500px;
+  height:600px;
+background-image:url("images/gift-img.jpg");
+/*background-image:linear-gradient(red,pink);*/
+ background-size:cover;
+ margin:0 auto;
+
+}
+.img:hover{
+  background-image: url("images/happySponjpop.jpeg");
+
+}
+.gif:hover{
+  background-image:url("images/hot-meme.jpeg");
+}
+.badass:hover{
+  background-image: url("images/badass.jpeg");
+}
+.smart:hover{
+  background-image: url("images/goodman.jpeg");
+}
+.imgStyle{
+  width:500px;
+  height:200px;
+  background-image:url("images/gift-img.jpg");
+  background-size:cover;
+  border:5px solid white;
+  border-radius:5px;
+  margin: 50px;
+   margin:0 auto;
+}
+.end:hover{
+  background-image:url("images/end.jpeg");
+}
+.textLink{
+  margin-top: 40px auto 20px;
+  font-weight:bold;
+  font-size:30px;
+   margin:0 auto;
+   font-style: italic;
+}
